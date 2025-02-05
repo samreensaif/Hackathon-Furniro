@@ -1,38 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hackathon Furniro
 
-## Getting Started
+Hackathon Furniro is a modern, responsive web application built using **Next.js** and **React**, aimed at delivering a dynamic user experience. This project integrates authentication, content management, and various UI components. It uses **TailwindCSS** for styling and **Sanity** as a headless CMS.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Project Overview](#project-overview)
+- [Installation](#installation)
+- [Scripts](#scripts)
+- [Dependencies](#dependencies)
+- [Dev Dependencies](#dev-dependencies)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The Hackathon Furniro project is designed to be an all-in-one platform, integrating modern tools and frameworks. The project is ideal for developers looking to build and deploy full-stack web applications using **Next.js** with TailwindCSS for styling and **Sanity CMS** for content management.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Key Features:
+- **Authentication** via Clerk
+- **Content Management** using Sanity
+- **Responsive Design** with TailwindCSS
+- **UI components** provided by Radix UI
+- **Data Visualization** with Recharts
+- **Email integration** using EmailJS
+- **State management** via Jotai
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+To get started with Hackathon Furniro locally, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# Furniro-NextJs" 
-"# Hackathon-Furniro" 
+   ```bash
+   git clone https://github.com/your-username/hackathon-furniro.git
+   cd hackathon-furniro
