@@ -386,7 +386,7 @@ const CheckoutFormContent = () => {
                 </div>
 
                 <Link
-                  href={`/confirmation?productName=${productName}&totalItems=${totalItems}&totalPrice=${totalPrice}&subTotal=${subTotal}`}
+                  href={`/payment?productName=${productName}&totalItems=${totalItems}&totalPrice=${totalPrice}&subTotal=${subTotal}`}
                 >
                   <Button className="w-full mt-4" size="lg">
                     Place order
